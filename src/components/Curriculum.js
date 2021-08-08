@@ -35,7 +35,7 @@ export default class Curriculum extends Component {
                     <h2 className="title">{datas.personal.title}</h2>
                 </div>
 
-                <div style={{display: 'flex', gap: '10px'}}>
+                <div className='progress' style={{display: 'flex', gap: '10px'}}>
                     <div className="path">
                         <div className="description">
                             <h3>Description</h3>
@@ -52,7 +52,7 @@ export default class Curriculum extends Component {
                     </div>
                 
                     <div className="personal">
-                        <div style={{display:'flex', justifyContent: 'center' }}>
+                        <div style={{display:'flex', justifyContent: 'center', width:'100%' }}>
                         <img src={datas.personal.photo} style={{width: '100px', height: '100px'}} alt="" />
                         </div>
                         {/* <img src={datas.personal.photo} style={{width: '100px', height: '100px'}} /> */}

@@ -16,7 +16,7 @@ export default class PersonalInfos extends Component {
                 <textarea rows="4" placeholder="Description" name="description" onChange={handleChange} ></textarea>
                 <label htmlFor="photo">
                     Photo
-                    <input id="photo" type="file" placeholder="Photo" name="photo" ref={fileInput} /> <br></br> 
+                    <input id="photo" type="file" placeholder="Photo" name="photo" required ref={fileInput} /> <br></br> 
 
                 </label>
             </div>

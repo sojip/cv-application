@@ -34,13 +34,24 @@
     box-sizing: border-box;
 }
 
+
 .personal {
     width: 35%;
     padding: 25px;
     padding-top: 0px;
     box-sizing: border-box;
     color: white;
-    /* background-color: yellow; */
+}
+
+@media screen and (max-width: 568px) {
+    .progress {
+        flex-wrap: wrap-reverse;
+    }
+
+    .path, 
+    .personal {
+        width: 100%;
+    }
 }
 
 .personal p {
