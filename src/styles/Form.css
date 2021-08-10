@@ -40,6 +40,8 @@ input[type='button'], input[type='submit'] {
     cursor: pointer;
     height: 30px;
     background-color: black;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 input[type='submit'] {

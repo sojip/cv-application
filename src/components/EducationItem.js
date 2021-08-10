@@ -1,9 +1,6 @@
 import { Component } from "react";
 
 export default class EducationItem extends Component {
-    constructor(props) {
-        super(props)
-    }
     render() {
         const {from, to, university, city, degree, subject } = this.props;
         return(

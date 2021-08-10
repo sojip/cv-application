@@ -1,9 +1,6 @@
 import { Component } from "react";
 
 export default class ExperienceItem extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         const {from, to, position, company} = this.props;
         return(
