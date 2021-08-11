@@ -104,7 +104,7 @@ class App extends Component {
                     }
                     else return experience
                 })
-            }, () => console.log(this.state))
+            })
         })
     }
 
@@ -127,7 +127,7 @@ class App extends Component {
                     }
                     else return education
                 })
-            }, () => console.log(this.state))
+            })
         })
     }
     

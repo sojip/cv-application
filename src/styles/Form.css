@@ -4,9 +4,7 @@
     margin: 25px auto;
     margin-top: 100px;
     width: 50%;
-    /* background-color: black; */
     background-color: grey;
-
     box-sizing: border-box;
     padding: 25px;
 }
@@ -41,7 +39,6 @@ input[type='button'], input[type='submit'] {
     height: 30px;
     background-color: black;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 input[type='submit'] {
